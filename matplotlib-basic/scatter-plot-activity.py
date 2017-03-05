@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # MatPlotLib Basics
 
 from pylab import randn
@@ -6,8 +7,8 @@ import numpy as np
 
 # Scatter Plot
 
-X = randn(5000)
-Y = randn(5000)
+X = np.random.normal(3.0, 1.0, 1000)
+Y = np.random.normal(50.0, 1.0, 1000)
 
 axes = plt.axes()
 
